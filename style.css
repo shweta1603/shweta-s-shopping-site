@@ -1,0 +1,135 @@
+body{
+    background-image: linear-gradient( 110.5deg,  rgba(71,114,148,1) 14.9%, rgba(149,245,211,1) 77.9% );
+}
+.container{
+    max-width: 1600px;
+    color: #4a148c;
+}
+.main-header-section{
+    text-align: center;
+    background: #b5c9d8a1;
+}
+.navbar{ 
+    background: #82a4b9e3;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+} 
+.btn{
+    border: none;
+}
+.btn:active{
+    box-shadow: none;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn-primary{
+    background-image: linear-gradient( 110.5deg,  rgba(71,114,148,1) 14.9%, rgba(149,245,211,1) 77.9% );
+    color: white;
+    border-radius: 37px;
+}
+.brand-name{
+    background-image: linear-gradient( 110.5deg,  rgba(71,114,148,1) 14.9%, rgba(149,245,211,1) 77.9% );
+    padding: 8px;
+    border-radius: 69px;
+}
+.jumbotron-img{
+    margin: 10px auto;
+    display: flex;
+    height: 200px;
+    border-radius: 50%;
+}
+.jumbotron{
+    opacity: 0.8;
+}
+.card.product{
+    margin: 15px;
+    /* height: 95%; */
+}
+.row{
+    margin: 20px 0;
+}
+.card.product .card-img-top{
+    height: 300px;
+}
+.card.product .btn-outer{
+    display: flex;
+    justify-content: space-between;
+}
+.card.product .btn-outer .cart-btn{
+    flex: 1;
+}
+.card.product .btn-outer .buy-btn{
+flex: 1;
+margin: 0 0 0 5px;
+}
+.card.product .product-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checked {
+    color: orange;
+}
+.product-price{
+    color: green;
+    /* font-size: 25px; */
+}
+.display-1{
+font-size: 5rem;
+    font-weight: 30;
+    line-height: 1.3;
+}
+.fa fa-shopping-cart{
+   margin-left: -5px;
+}
+
+.about{
+    width: '70%';
+    padding: '70px';
+    text-align: 'justify';
+}
+.contact{
+    margin-top:'50px';
+    paddingLeft: '35%';
+}
+.about-h1{
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    font-family: monospace;
+    font-size: 100px;
+}
+.about{
+    height: 41em;
+}
+.about-description{
+    width: 52%;
+    font-size: 20px;
+    font-family: inherit;
+    margin: -288px 0 0 614px;
+}  
+.about-img{
+    height: 62%;
+    width: 87%;
+    margin-left: 107px;
+} 
+.contact{
+    margin-left: auto;
+    width: 50%;
+    white-space: pre-line;
+    color: black;
+    font-weight: bolder;
+}
+#contact-container{
+    margin-left: -357px;
+    height: 43em;
+    background-image: url('https://th.bing.com/th/id/R.c4354285436d6f92bff8a5d8b554bd2f?rik=jIoF5iM9eyYEVw&riu=http%3a%2f%2fwww.etc-web.com%2fwp-content%2fuploads%2fcontact-us_banner.jpg&ehk=LF%2fxkOGDLRMyJLkpREUMQ6FzF6td%2fTJi6wtERE%2buieQ%3d&risl=&pid=ImgRaw&r=0');
+}
+.log{
+    margin: auto;
+    width: 50%;
+    margin-top: 200px;
+}
