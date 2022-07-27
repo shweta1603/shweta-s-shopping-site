@@ -8,7 +8,6 @@ const addToCard = (id) => {
 }
 console.log(cartItems)
 const addedToCart = () =>{
-    console.log(cartItems)
     cartItems.map((element,index) => {
         console.log(element)
        
